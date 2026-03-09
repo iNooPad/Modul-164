@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4321443e-3958-4078-8567-b2d0e670e047" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="38mnLeiAIYA5gfCNEmOX2wFtv7J" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Database Script.ab164-01_MariaDB_lernende_CREATE_TABLE.sql.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sonoma&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;database.query.execution&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mariadb&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="ab164-01_MariaDB_lernende_CREATE_TABLE.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+      <script-file value="$USER_HOME$/Downloads/ab164-01-mariadb-lernende/ab164-01_MariaDB_lernende_CREATE_TABLE.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="dfb4666c-f79c-4a23-919e-c44a8de82190" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4321443e-3958-4078-8567-b2d0e670e047" name="Changes" comment="" />
+      <created>1769413559312</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1769413559312</updated>
+      <workItem from="1769413560345" duration="3995000" />
+      <workItem from="1769598268486" duration="240000" />
+      <workItem from="1770020618338" duration="3813000" />
+      <workItem from="1770621142864" duration="2908000" />
+      <workItem from="1770628354833" duration="2364000" />
+      <workItem from="1772047825606" duration="4597000" />
+      <workItem from="1772203259354" duration="1021000" />
+      <workItem from="1772204557590" duration="85000" />
+      <workItem from="1772204714216" duration="74000" />
+      <workItem from="1772376692732" duration="7941000" />
+      <workItem from="1772386176455" duration="5375000" />
+      <workItem from="1772434225498" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
