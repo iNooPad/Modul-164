@@ -1,0 +1,62 @@
+USE INF2025i_AppleMusicLight;
+
+SET FOREIGN_KEY_CHECKS = 0;
+
+
+LOAD DATA LOCAL INFILE 'C:\\Users\\leoni\\Downloads\\ALBUM.csv'
+INTO TABLE ALBUM
+FIELDS TERMINATED BY ','
+	ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES
+(ID, ArtistID, Titel, Erscheinungsdatum, Genre);
+
+LOAD DATA LOCAL INFILE 'C:\\Users\\leoni\\Downloads\\ARTIST.csv'
+INTO TABLE artist
+FIELDS TERMINATED BY ','
+	ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES
+(ID, LabelID, Kuenstlername, Biografie);
+
+LOAD DATA LOCAL INFILE 'C:\\Users\\leoni\\Downloads\\RECORDLABEL.csv'
+INTO TABLE RECORDLABEL
+FIELDS TERMINATED BY ','
+	ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES
+(ID, Name, LandCode);
+
+LOAD DATA LOCAL INFILE 'C:\\Users\\leoni\\Downloads\\STREAM_EREIGNIS.csv'
+INTO TABLE Stream_ereignis
+FIELDS TERMINATED BY ','
+	ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES
+(ID, UserID, TrackID, Zeitstempel, Geraet);
+
+LOAD DATA LOCAL INFILE 'C:\\Users\\leoni\\Downloads\\TRACK.csv'
+INTO TABLE TRACK
+FIELDS TERMINATED BY ','
+	ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES
+(ID, AlbumID, Titel, Dauer_Sekunden);
+
+LOAD DATA LOCAL INFILE 'C:\\Users\\leoni\\Downloads\\TRACK_FEATURE.csv'
+INTO TABLE TRACK_FEATURE
+FIELDS TERMINATED BY ','
+	ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES
+(TrackID, ArtistID);
+
+LOAD DATA LOCAL INFILE 'C:\\Users\\leoni\\Downloads\\USER.csv'
+INTO TABLE USER
+FIELDS TERMINATED BY ','
+	ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES
+(ID, Benutzername, Emailadresse, Registrierungsdatum, HatPremium);
+
+SET foreign_key_checks = 1;
