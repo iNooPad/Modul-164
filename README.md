@@ -1,5 +1,5 @@
 # Dokumentation Modul 164
-<img src="./Apple%20Music%20Light.png" />
+<img src="./assets/Apple%20Music%20Light.png" />
 
 ## Zweck der Datenbank
 
@@ -36,10 +36,10 @@ Die Datenbank besteht aus sieben Tabellen. So können wir alle Anforderungen abb
 
 Das konzeptionelle Datenmodell zeigt die Übersicht unserer Tabellen und wie sie zusammenhängen. Es enthält noch keine Fremdschlüssel oder Datentypen, da es unabhängig vom DBMS ist.
 
-<img src="./Konzeptionelles_Datenmodell.svg" />
+<img src="./assets/Konzeptionelles_Datenmodell.svg" />
 
 ## Logisches Datenmodell
 
 Das logische Datenmodell leitet sich aus dem konzeptionellen Entwurf ab. Es befindet sich in der 3. Normalform (3. NF) und enthält alle Details, die wir für das SQL-Skript brauchten: Primärschlüssel (PK), Fremdschlüssel (FK), Datentypen und die Zwischentabellen für unsere m:m-Beziehungen.
 
-<img src="./Logisches_Datenmodell.svg" />
+<img src="./assets/Logisches_Datenmodell.svg" />
