@@ -1,11 +1,11 @@
-ArtistID,LabelID,Kuenstlername,Biografie
-1,6,"Nirvana","US-amerikanische Grunge-Band."
-2,4,"Dream Cave","Produzent für cineastische Musik."
-3,4,"Niklas Johansson","Komponist für atmosphärische Soundtracks."
-4,8,"Liquido","Deutsche Alternative-Rock-Band."
-5,5,"Dynazty","Schwedische Melodic-Metal-Band."
-6,7,"A Day to Remember","US-amerikanische Post-Hardcore-Band."
-7,1,"Imagine Dragons","US-amerikanische Pop-Rock-Band."
-8,1,"Swiss","Punk-Rapper aus Hamburg."
-9,9,"Die Toten Hosen","Rockband aus Düsseldorf."
-10,1,"Crystal F","Deutscher Rapper und Labelchef von Ruffiction."
+AlbumID,Titel,Erscheinungsdatum,Genre,ArtistID
+1,"Nevermind","1991-09-24","Rock",1
+2,"Eponymous Shadow","2015-01-01","Alternative",2
+3,"One Last Mission - EP","2019-01-01","Alternative",3
+4,"Handball Hits","1996-01-01","Pop",4
+5,"The Dark Delight","2020-04-03","Metal",5
+6,"Miracle - Single","2022-01-01","Rock",6
+7,"Origins (Deluxe Edition)","2018-11-09","Alternative",7
+8,"Alt aber knallt","2023-01-01","Hip-Hop/Rap",8
+9,"All die ganzen Jahre","2005-01-01","Pop",9
+10,"Fiebertrauma","2026-03-01","Hip-Hop/Rap",10
