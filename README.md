@@ -1,5 +1,6 @@
-![[Music Light.png]]
-* * * 
+# Dokumentation Modul 164
+<img src="./Apple%20Music%20Light.png" />
+
 ## Zweck der Datenbank
 
 Unser Projekt war es, den Musik-Streamingdienst Apple Music nachzubauen (besser gesagt Apple Music Light, da der ganze Streamingdienst den Rahmen sprengen würde). Apple Music Light soll Tracks, Alben, Künstler, Musik-Label, User und deren Aktivitäten festhalten. Dazu wurden insgesamt sieben Tabellen genutzt.
